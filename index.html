@@ -1,27 +1,34 @@
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
             <div>
                 <h3>HOME</h3>
-                <h2 id="hs-el">SCORE: </h2>
+                <h2 id="hs-el">0 </h2>
                 <div class="buttons-home">
-                    <button onclick="addOneHome()">1</button>
-                    <button onclick="addTwoHome()">2</button>
-                    <button onclick="addThreeHome()">3</button>
+                    <button onclick="addOneHome()">+1</button>
+                    <button onclick="addTwoHome()">+2</button>
+                    <button onclick="addThreeHome()">+3</button>
                 </div>
             </div>
             <div>
                 <h3>GUEST</h3>
-                <h2 id="gs-el">SCORE: </h2>
+                <h2 id="gs-el">0 </h2>
                 <div class="buttons-away">
-                    <button onclick="addOneGuest()">1</button>
-                    <button onclick="addTwoGuest()">2</button>
-                    <button onclick="addThreeGuest()">3</button>
+                    <button onclick="addOneGuest()">+1</button>
+                    <button onclick="addTwoGuest()">+2</button>
+                    <button onclick="addThreeGuest()">+3</button>
                 </div>
             </div>
+        </div>
+        <div class="image">
+            <button id="restart-el" onclick="restart()">Restart</button>
         </div>
         <script src="index.js"></script>
     </body>
