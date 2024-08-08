@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="index.css">
+        <title>Basketball Score</title>
     </head>
     <body>
         <div class="container">
@@ -17,6 +18,9 @@
                     <button onclick="addThreeHome()">+3</button>
                 </div>
             </div>
+            <div class="image">
+                <button id="restart-el" onclick="restart()">Restart</button>
+            </div>
             <div>
                 <h3>GUEST</h3>
                 <h2 id="gs-el">0 </h2>
@@ -26,9 +30,6 @@
                     <button onclick="addThreeGuest()">+3</button>
                 </div>
             </div>
-        </div>
-        <div class="image">
-            <button id="restart-el" onclick="restart()">Restart</button>
         </div>
         <script src="index.js"></script>
     </body>

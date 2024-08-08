@@ -1,3 +1,8 @@
+/* html, body {
+    margin: 0;
+    height: 100vh;
+} */
+
 body {
     margin: 0;
     font-family: 'Oxanium', sans-serif;
@@ -5,6 +10,7 @@ body {
 
 .container {
     background-color: #1B244A;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
@@ -15,7 +21,7 @@ body {
 h3 {
     margin: 25px 0px 0px 0px;
     color: #EEEEEE;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 3em;
     text-align: center;
 }
@@ -23,7 +29,7 @@ h3 {
 #hs-el {
     margin: 5px;
     color: #F94F6D;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     font-size: 5em;
     background-color: #080001;
@@ -33,7 +39,7 @@ h3 {
     margin: 5px;
     color: #F94F6D;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 5em;
     background-color: #080001;
 }
@@ -58,4 +64,6 @@ button {
     margin-left: 650px;
     font-size: 3em;
     color: #E11D48;
+    padding: 30px;
 }
+
